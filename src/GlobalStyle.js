@@ -20,6 +20,7 @@ const GlobalStyle = createGlobalStyle`
     --bigFont: 18px;
     --xbigFont: 24px;
     --navbarBreak: 768px;
+    --navbarHeight: 50px; 
   }
 
   * {

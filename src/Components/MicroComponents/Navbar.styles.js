@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
 width: 100%;
 background-color: var(--color1);
-height: 50px;
+height: var(--navbarHeight);
 display: flex;
 flex-direction:row;
 justify-content: space-between;
