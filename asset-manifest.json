@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/MockupinreactMakeit/static/js/main.5fe974c2.chunk.js",
+    "main.js.map": "/MockupinreactMakeit/static/js/main.5fe974c2.chunk.js.map",
+    "runtime-main.js": "/MockupinreactMakeit/static/js/runtime-main.b5e02254.js",
+    "runtime-main.js.map": "/MockupinreactMakeit/static/js/runtime-main.b5e02254.js.map",
+    "static/js/2.96f3443e.chunk.js": "/MockupinreactMakeit/static/js/2.96f3443e.chunk.js",
+    "static/js/2.96f3443e.chunk.js.map": "/MockupinreactMakeit/static/js/2.96f3443e.chunk.js.map",
+    "index.html": "/MockupinreactMakeit/index.html",
+    "static/js/2.96f3443e.chunk.js.LICENSE.txt": "/MockupinreactMakeit/static/js/2.96f3443e.chunk.js.LICENSE.txt",
+    "static/media/Arrow.156844d7.svg": "/MockupinreactMakeit/static/media/Arrow.156844d7.svg",
+    "static/media/Logo.ec650798.svg": "/MockupinreactMakeit/static/media/Logo.ec650798.svg",
+    "static/media/hamburguer.6aa7423c.svg": "/MockupinreactMakeit/static/media/hamburguer.6aa7423c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b5e02254.js",
+    "static/js/2.96f3443e.chunk.js",
+    "static/js/main.5fe974c2.chunk.js"
+  ]
+}
