@@ -2,11 +2,12 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const ButtonBody = styled.div`
+cursor: pointer;
 padding: 8px;
 margin: 5px;
 background-color: ${props => props.backgroundColor ? props.backgroundColor : ""};
 color: ${props => props.textColor ? props.textColor : ""};
-font-size: var(--smallFont);
+font-size: var(--xxsmallFont);
 border-radius: 10px;
 border: ${props => props.border ? "solid 1px" : ""};
 border-color: ${props => props.bordercolor ? props.bordercolor : ""};
@@ -33,11 +34,11 @@ justify-content: center;
 align-items: center;
 `
 
-const Button = ({ children = <></>, to = "", href = "", backgroundColor = "", textColor = "", border = false, shadow = false, target = "", widthLevel = 1 }) => {
+const Button = ({ children = <></>, to = "", href = "", backgroundColor = "", textColor = "", border = false, borderColor="", shadow = false, target = "", widthLevel = 1, onClick = ()=>{} }) => {
     let ButtonResult = href
         ? (
             <a href={href} rel={"nofollow noopener noreferrer"} target={target}>
-                <ButtonBody backgroundColor={backgroundColor} textColor={textColor} border={border} shadow={shadow} widthLevel={widthLevel}>
+                <ButtonBody backgroundColor={backgroundColor} textColor={textColor} border={border} borderColor={borderColor} shadow={shadow} widthLevel={widthLevel}>
                     {children}
                 </ButtonBody>
             </a>
@@ -45,13 +46,13 @@ const Button = ({ children = <></>, to = "", href = "", backgroundColor = "", te
         : to
             ? (
                 <Link to={to} rel={"nofollow noopener noreferrer"} target={target}>
-                    <ButtonBody backgroundColor={backgroundColor} textColor={textColor} border={border} shadow={shadow} widthLevel={widthLevel}>
+                    <ButtonBody backgroundColor={backgroundColor} textColor={textColor} border={border} borderColor={borderColor} shadow={shadow} widthLevel={widthLevel}>
                         {children}
                     </ButtonBody>
                 </Link>
             )
             : (
-                <ButtonBody backgroundColor={backgroundColor} textColor={textColor} border={border} shadow={shadow} widthLevel={widthLevel}>
+                <ButtonBody backgroundColor={backgroundColor} textColor={textColor} border={border} borderColor={borderColor} shadow={shadow} widthLevel={widthLevel} onClick={onClick}>
                     {children}
                 </ButtonBody>
             )

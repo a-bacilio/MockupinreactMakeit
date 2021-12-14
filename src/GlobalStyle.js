@@ -14,11 +14,15 @@ const GlobalStyle = createGlobalStyle`
     --color2: #3CA8D3;
     --color3: #F9CF70;
     --color4: #F7F1E6;
-    --colorShade: #000000EE;
+    --colorShade: #000000DD;
+    --xxsmallFont: 11px;
+    --xsmallFont: 12px;
     --smallFont: 14px;
     --mediumFont: 16px;
     --bigFont: 18px;
     --xbigFont: 24px;
+    --xxbigFont: 32px;
+    --xxxbigFont: 48px;
     --navbarBreak: 768px;
     --navbarHeight: 50px; 
   }
@@ -28,6 +32,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     text-decoration: none; 
+    font-family: 'Roboto', sans-serif;
   }
 
   #root{

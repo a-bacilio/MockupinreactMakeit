@@ -17,21 +17,31 @@ export const navbarData = [
         "navs":[
             {
                 "id":1,
+                "name":"Productos",
+                "route":"/"
+            },
+            {
+                "id":2,
                 "name":"Carrito",
                 "route":"/cart"
             },
             {
-                "id":2,
+                "id":3,
                 "name":"Ordenes",
                 "route":"/orders"
             },
             {
-                "id":3,
-                "name":"Subir receta",
-                "route":"/receipts"
+                "id":4,
+                "name":"Recetas",
+                "route":"/myprescriptions"
             },
             {
-                "id":4,
+                "id":5,
+                "name":"Alarmas",
+                "route":"/myalarms"
+            },
+            {
+                "id":6,
                 "name":"Perfil",
                 "route":"/profile"
             },
@@ -44,13 +54,24 @@ export const navbarData = [
         "navs":[
             {
                 "id":1,
-                "name":"Aprobar Recetas",
-                "route":"/receiptslist"
+                "name":"Recetas",
+                "route":"/approveprescriptions"
             },
             {
                 "id":2,
-                "name":"Añadir Productos",
-                "route":"/productslisting"
+                "name":"Alarmas",
+                "route":"/alarmmanager"
+            },
+
+            {
+                "id":3,
+                "name":"Recetas",
+                "route":"/prescriptions"
+            },
+            {
+                "id":4,
+                "name":"Productos",
+                "route":"/manageproducts"
             },
 
         ],
@@ -61,7 +82,7 @@ export const navbarData = [
         "navs":[
             {
                 "id":3,
-                "name":"Agregar Personal",
+                "name":"Personal",
                 "route":"/personnell"
             },
         ],
