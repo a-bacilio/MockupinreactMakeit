@@ -5,6 +5,7 @@ import NavBar from './Components/Navbar';
 import VerComo from "./Components/VerComo";
 import NormalLayout from "./Layouts/NormalLayout";
 import Products from "./Pages/Products";
+import TemplatePage from "./Pages/Template";
 
 function App() {
   return (
@@ -17,8 +18,9 @@ function App() {
           <Route path="/register" element={<span>Registrarse</span>} />
           <Route path="/recoverpassword" element={<span>Recuperar contraseña</span>} />
 
+          <Route path="/" element={<TemplatePage/>} />
 
-          <Route path="/" element={<Products/>} />
+          <Route path="/products" element={<Products/>} />
           <Route path="/cart" element={<span>Carrito</span>} />
           <Route path="/orders" element={<span>Ordenes</span>} />
           <Route path="/sendprescription" element={<span>Enviar Recetas</span>} />

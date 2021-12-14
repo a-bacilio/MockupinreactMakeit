@@ -18,7 +18,7 @@ export const navbarData = [
             {
                 "id":1,
                 "name":"Productos",
-                "route":"/"
+                "route":"/products"
             },
             {
                 "id":2,
