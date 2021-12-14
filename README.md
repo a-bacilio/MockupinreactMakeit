@@ -8,4 +8,4 @@ Se uso:
 
 ver online: 
 
-http://a-bacilio.github.io/MockupinreactMakeit
+http://a-bacilio.github.io/MockupinreactMakeit/
