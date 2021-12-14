@@ -15,6 +15,7 @@ import FinalLogo from "../svg/general/Logo.svg";
 import Button from "./MicroComponents/Button";
 
 import { navbarData } from "../Data/NavbarData";
+import { Link } from "react-router-dom";
 
 
 
@@ -52,7 +53,7 @@ const NavBar = () => {
 
         <Container backgroundColor={"var(--color2)"}>
             <Wrapper>
-                <LogoImage src={FinalLogo} alt={FinalLogo} />
+                <Link to={"/"}><LogoImage src={FinalLogo} alt={FinalLogo} /></Link>
                 <MenuBar>
                     {
                         switchNavbarContent(role)["navs"].map((item, key) => {
